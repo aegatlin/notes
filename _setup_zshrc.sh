@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 _setup_zshrc () {
   _message "Overriding ~/.zshrc"

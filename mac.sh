@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 setup () {
   _source_remote_files
@@ -29,7 +29,7 @@ _use_file () {
 }
 
 _clean_up () {
-  rm tmp.sh.*
+  rm temp.sh.*
 }
 
 setup

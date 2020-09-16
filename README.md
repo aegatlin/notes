@@ -6,27 +6,25 @@ The wiki repo is independent of this repo. To edit the wiki you will need to clo
 
 ## Setup
 
-To run the setup script from anywhere, run the following command:
+Use the appropriate script for the machine in question.
 
-Pick your install
-
-- For a local, mac dev machine:
+- Local macbook:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/mac.sh)"
+/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/mac.sh)"
 ```
 
-- For a remote, linux ubuntu dev machine:
+- Remote ubuntu for ipad:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/remote_linux.sh)"
+/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/remote_linux.sh)"
 ```
 
 ### Principles
 
 1. Remote
 
-   Got bash? Got curl? Get setup.
+   Got curl? Got zsh? Get setup.
 
 1. Modular and Personal
 

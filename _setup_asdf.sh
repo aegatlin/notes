@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 _setup_asdf () {
   if _not_has_program asdf; then

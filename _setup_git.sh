@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 _setup_git () { 
   git config --global user.email 'austin@gatlin.io'

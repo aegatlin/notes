@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 _setup_brew () {
   if _not_has_program brew; then
