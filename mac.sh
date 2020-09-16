@@ -22,7 +22,7 @@ _source_remote_files () {
 }
 
 _use_file () {
-  temp="$(mktemp ./tmp.sh.XXX)"
+  temp="$(mktemp ./temp.sh.XXX)"
   chmod 744 "$temp"
   curl -fsSL "https://raw.githubusercontent.com/aegatlin/notes/master/$1" > "$temp"
   source "$temp"
