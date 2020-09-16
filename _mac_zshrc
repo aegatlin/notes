@@ -1,0 +1,47 @@
+##########
+# zsh aliases
+##########
+alias ls='ls -G'
+alias ll='ls -al'
+alias g='git'
+alias ..='cd ..'
+alias py='python3'
+alias pr='pipenv run'
+alias nr='npm run'
+alias s='iex -S mix phx.server'
+
+##########
+# PROMPT setup
+##########
+autoload -Uz vcs_info
+zstyle ':vcs_info:git*' formats "%b"
+precmd() { 
+  vcs_info 
+}
+setopt prompt_subst
+export PROMPT=$'\n''%F{blue}%~%f %F{red}${vcs_info_msg_0_}%f'$'\n''%F{cyan}%D %T%f '
+
+##########
+# brew setup
+##########
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
+##########
+# direnv setup
+##########
+eval "$(direnv hook zsh)"
+
+##########
+# asdf setup
+##########
+. $HOME/.asdf/asdf.sh
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit
+compinit
