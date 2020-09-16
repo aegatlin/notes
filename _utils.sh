@@ -16,7 +16,7 @@ _run_command () {
     echo "Executing command: $1"
   fi
 
-  $1
+  eval $1
   echo
 }
 
