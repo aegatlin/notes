@@ -1,6 +1,12 @@
 #!/bin/zsh
 
-asdf__setup_asdf () {
+##########
+# Asdf public functions
+##########
+# install, setup, augment
+##########
+
+asdf__install () {
   if ! __has_command asdf; then
     __message "Installing asdf"
 
@@ -9,7 +15,9 @@ asdf__setup_asdf () {
     git checkout "$(git describe --abbrev=0 --tags)"
     popd || exit
   fi
+}
 
+asdf__setup () {
   __run_command "asdf update"
   _asdf__ensure_plugin_add nodejs
   # _run_command "asdf plugin add nodejs"
@@ -30,4 +38,23 @@ _asdf__ensure_plugin_add () {
     # _run_command "asdf install $1 latest"
     # _run_command "asdf global $1 $(asdf latest $1)"
   fi
+}
+
+asdf__augment () {
+  _asdf_append_to_zshrc
+}
+
+_asdf_append_to_zshrc() {
+cat << DELIMIT >> ~/.zshrc
+##########
+# asdf setup
+##########
+. $HOME/.asdf/asdf.sh
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit
+compinit
+
+DELIMIT
 }

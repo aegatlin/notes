@@ -1,11 +1,10 @@
 #!/bin/zsh
 
-git__ensure () {
-  if ! __has_command git; then
-    __message "Error! Git not installed! Exiting"
-    exit
-  fi
-}
+##########
+# Git public functions
+##########
+# setup
+##########
 
 git__setup () {
   __message "Configuring git aliases"
@@ -19,4 +18,11 @@ git__setup () {
   git config --global alias.st status
   git config --global alias.lol 'log --oneline'
   git config --global alias.lolg 'log --oneline --graph'
+}
+
+_git__ensure () {
+  if ! __has_command git; then
+    __message "Error! Git not installed! Exiting"
+    exit
+  fi
 }

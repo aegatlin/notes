@@ -14,12 +14,6 @@ setup () {
   _message "Setup completed"
 }
 
-_ensure_zsh () {
-  if ! echo $SHELL | grep -q zsh; then
-    chsh -s /bin/zsh
-  fi
-}
-
 _source_remote_files () {
   _use_file _utils.sh
   _use_file _setup_brew.sh
