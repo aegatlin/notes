@@ -20,7 +20,7 @@ _source_remote_functions () {
   _source_remote_tool "brew.sh"
   _source_remote_tool "direnv.sh"
   _source_remote_tool "git.sh"
-  _source_remote_tool "zshrc.sh"
+  _source_remote_tool "zsh.sh"
 }
 
 _source_remote_tool () {
