@@ -1,11 +1,5 @@
 #!/bin/zsh
 
-##########
-# Direnv public functions
-##########
-# augment
-##########
-
 direnv__augment () {
   _direnv__append_to_zshrc
 }

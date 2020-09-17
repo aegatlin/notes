@@ -1,11 +1,5 @@
 #!/bin/zsh
 
-##########
-# Zsh public functions
-##########
-# augment, initiate
-##########
-
 zsh__augment () {
   rm ~/.zshrc
   _zsh__write_universal_zshrc
@@ -42,9 +36,3 @@ export PROMPT=$'\n''%F{blue}%~%f %F{red}${vcs_info_msg_0_}%f'$'\n''%F{cyan}%D %T
 
 DELIMIT  
 }
-
-# _zsh__ensure () {
-#   if ! echo $SHELL | grep -q zsh; then
-#     chsh -s /bin/zsh
-#   fi
-# }

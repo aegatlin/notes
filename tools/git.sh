@@ -1,14 +1,6 @@
 #!/bin/zsh
 
-##########
-# Git public functions
-##########
-# setup
-##########
-
 git__setup () {
-  __message "Configuring git aliases"
-  
   git config --global user.email 'austin@gatlin.io'
   git config --global user.name 'Austin Gatlin'
   git config --global alias.co checkout
@@ -18,11 +10,4 @@ git__setup () {
   git config --global alias.st status
   git config --global alias.lol 'log --oneline'
   git config --global alias.lolg 'log --oneline --graph'
-}
-
-_git__ensure () {
-  if ! __has_command git; then
-    __message "Error! Git not installed! Exiting"
-    exit
-  fi
 }
