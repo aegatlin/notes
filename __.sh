@@ -1,6 +1,10 @@
 #!/bin/zsh
 
-_message () {
+__has_command () {
+  command -v $1 1> /dev/null
+}
+
+__message () {
   echo
   echo "**********"
   echo "$1"
@@ -8,7 +12,7 @@ _message () {
   echo
 }
 
-_run_command () {
+__run_command () {
   echo
   if [[ $# -eq 2 ]]; then
     echo "Executing command: $1 ($2)"
@@ -20,14 +24,10 @@ _run_command () {
   echo
 }
 
-_not_has_program () {
-  ! command -v $1 1> /dev/null
-}
+# __is_mac () {
+#   [[ "$(uname)" = "Darwin" ]]
+# }
 
-_is_mac () {
-  [[ "$(uname)" = "Darwin" ]]
-}
-
-_is_linux () {
-  [[ "$(uname)" = "Linux" ]]
-}
+# __is_linux () {
+#   [[ "$(uname)" = "Linux" ]]
+# }

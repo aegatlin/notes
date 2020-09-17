@@ -1,6 +1,15 @@
 #!/bin/zsh
 
-_setup_git () { 
+git__ensure () {
+  if ! __has_command git; then
+    __message "Error! Git not installed! Exiting"
+    exit
+  fi
+}
+
+git__setup () {
+  __message "Configuring git aliases"
+  
   git config --global user.email 'austin@gatlin.io'
   git config --global user.name 'Austin Gatlin'
   git config --global alias.co checkout
@@ -9,5 +18,5 @@ _setup_git () {
   git config --global alias.cane 'commit --amend --no-edit'
   git config --global alias.st status
   git config --global alias.lol 'log --oneline'
-  git config --global alias.lolg 'log --oneline --graph'  
+  git config --global alias.lolg 'log --oneline --graph'
 }
