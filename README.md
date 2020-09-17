@@ -13,13 +13,13 @@ Use the appropriate script for the machine in question.
 - Local macbook:
 
 ```bash
-/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/mac.sh)"
+/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/setup_scripts/local_mac.sh)"
 ```
 
 - Remote ubuntu for ipad:
 
 ```bash
-/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/remote_linux.sh)"
+/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/aegatlin/notes/master/setup_scripts/remote_ubuntu.sh)"
 ```
 
 ### Setup Observations
