@@ -1,10 +1,10 @@
 # Frontend
 
-## Progressive Web Apps (PWA)
+## Progressive Web Apps \(PWA\)
 
 Example `manifest.json` file:
 
-```zsh
+```text
 {
     "name": "",
     "scope": "/",
@@ -20,3 +20,4 @@ Example `manifest.json` file:
     "icons": []
 }
 ```
+

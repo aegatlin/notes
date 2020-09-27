@@ -1,0 +1,21 @@
+# Table of contents
+
+* [notes](README.md)
+* [shell](shell/README.md)
+  * [PS1 / PROMPT](shell/prompt.md)
+  * [Useful shell functions](shell/useful-shell-functions.md)
+  * [lsof](shell/lsof.md)
+  * [Shell](shell/shell.md)
+  * [Environment Variables](shell/environment-variables.md)
+  * [HEREDOC](shell/heredoc.md)
+* [direnv](direnv.md)
+* [dev machine setup](dev-machine-setup.md)
+* [Elixir](elixir.md)
+* [tmux](tmux.md)
+* [Vim](vim.md)
+* [Networking](networking.md)
+* [Git](git.md)
+* [Frontend](frontend.md)
+* [VSCode](vscode.md)
+* [ssh](ssh.md)
+

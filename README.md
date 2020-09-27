@@ -10,20 +10,21 @@ Please visit [notes](https://austin-e-gatlin.gitbook.io/notes/) on [Gitbook](htt
 
 When an article actually helps me understand something in a way I haven't before...
 
-- [CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#token-based-mitigation)
+* [CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#token-based-mitigation)
 
 ### Linux One-Liners
 
-- Information about which Linux distribution you're on
+* Information about which Linux distribution you're on
 
-  ```zsh
+  ```text
   lsb_release --all
   ```
 
 ### ImageMagick
 
-- Use [ImageMagick](https://imagemagick.org/index.php)'s `convert` tool to reduce the file size of an image without really affecting resolution:
+* Use [ImageMagick](https://imagemagick.org/index.php)'s `convert` tool to reduce the file size of an image without really affecting resolution:
 
-  ```zsh
+  ```text
   convert filename.jpg -quality 50% filename.jpg
   ```
+

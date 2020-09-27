@@ -2,10 +2,9 @@
 
 ## Mix
 
-- Remove old deps ([learned from here][til-deps])
+* Remove old deps \([learned from here](https://til.hashrocket.com/posts/biytzjjppd-how-to-remove-unused-deps-from-mixlock)\)
 
-  ```sh
+  ```bash
   mix deps.clean --unlock --unused
   ```
 
-[til-deps]: https://til.hashrocket.com/posts/biytzjjppd-how-to-remove-unused-deps-from-mixlock
