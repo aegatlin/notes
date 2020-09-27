@@ -16,7 +16,7 @@ Prompt syntax: `$'\n'`
 
 ## Display the current git branch
 
-This is not easy. There is a `zsh` function called `vcs_info` that existing in the env. You need to enable its usage by using `autoload -Uz vcs_info`. According to [the docs](http://zsh.sourceforge.net/Doc/Release/Shell-Builtin-Commands.html), the `-U` flag suppresses alias expansion. I guess this is to prevent a scenario where you wrote an alias independently that happened to be the name of a variable used within the vcs\_info function itself. It could then alias-expand into something not intended. The `-z` flag indicates that you should autoload the function in a `zsh` friendly way, as opposed to a `ksh` friendly way. I don't know why that wouldn't be assumed, but I'm trusting [this blog post](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/). This is step one, and should be added to `.zshrc`.
+This is not easy. There is a `zsh` function called `vcs_info` that existing in the env. You need to enable its usage by using `autoload -Uz vcs_info`. According to [the docs](http://zsh.sourceforge.net/Doc/Release/Shell-Builtin-Commands.html), the `-U` flag suppresses alias expansion. I guess this is to prevent a scenario where you wrote an alias independently that happened to be the name of a variable used within the vcs_info function itself. It could then alias-expand into something not intended. The `-z` flag indicates that you should autoload the function in a `zsh` friendly way, as opposed to a `ksh` friendly way. I don't know why that wouldn't be assumed, but I'm trusting [this blog post](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/). This is step one, and should be added to `.zshrc`.
 
 ```text
 autoload -Uz vcs_info
@@ -65,4 +65,3 @@ precmd() { vcs_info }
 setopt prompt_subst
 export PROMPT=$'\n''%F{blue}%~%f %F{red}${vcs_info_msg_0_}%f'$'\n''%F{cyan}%D %T%f '
 ```
-

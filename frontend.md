@@ -20,4 +20,3 @@ Example `manifest.json` file:
     "icons": []
 }
 ```
-

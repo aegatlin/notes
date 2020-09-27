@@ -38,4 +38,3 @@ Host aeg
 ```
 
 Now you can connect with `ssh aeg` instead of `ssh root@123.123.123.123`.
-

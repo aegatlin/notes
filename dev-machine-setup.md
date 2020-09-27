@@ -22,7 +22,7 @@ sudo apt autoremove
 
 Two relatively important packages are missing \(at the time of this writing\) from the minimal install of Ubuntu. `usb-creator-gtk` is necessary to create bootup disk images. `fonts-noto-color-emoji` is necessary to view certain emojis.
 
-* "echo 'text' &gt;&gt; file.ext" adds 'text' to the bottom of the content in file.ext.
+- "echo 'text' &gt;&gt; file.ext" adds 'text' to the bottom of the content in file.ext.
 
 ```bash
 sudo apt install curl
@@ -42,4 +42,3 @@ You will need to create a default database:
 ```bash
 > sudo -u postgres createuser --createdb $(whoami)
 ```
-

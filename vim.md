@@ -14,8 +14,7 @@ I've heard from fellow minimalists that [vim-plug](https://github.com/junegunn/v
 
 ## Vim things
 
-* [vim cheatsheet](https://devhints.io/vim)
-* autoload directory
-  * The autoload directory will reactively load files as you need them, as opposed to some otherwise upfront load that could result in a slow startup. This is especially relevant for larger libraries, or for when you have many libraries. I understand it as lazy loading, essentially. I.e., load the file only when you are literally about to execute a function from within it. You can be fancy with it via \[automatic installation\]\[vim-plug-auto-install\] in your .vimrc script.
-* when you want to reload `.vimrc` without leaving vim, execute `:source ~/.vimrc`
-
+- [vim cheatsheet](https://devhints.io/vim)
+- autoload directory
+  - The autoload directory will reactively load files as you need them, as opposed to some otherwise upfront load that could result in a slow startup. This is especially relevant for larger libraries, or for when you have many libraries. I understand it as lazy loading, essentially. I.e., load the file only when you are literally about to execute a function from within it. You can be fancy with it via \[automatic installation\]\[vim-plug-auto-install\] in your .vimrc script.
+- when you want to reload `.vimrc` without leaving vim, execute `:source ~/.vimrc`

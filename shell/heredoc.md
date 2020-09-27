@@ -35,4 +35,3 @@ $var
 DELIMIT
 $var
 ```
-
