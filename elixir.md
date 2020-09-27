@@ -1,4 +1,6 @@
-# Mix
+# Elixir
+
+## Mix
 
 - Remove old deps ([learned from here][til-deps])
 

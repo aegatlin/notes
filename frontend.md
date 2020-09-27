@@ -1,4 +1,6 @@
-# Progressive Web Apps (PWA)
+# Frontend
+
+## Progressive Web Apps (PWA)
 
 Example `manifest.json` file:
 
