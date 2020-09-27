@@ -1,3 +1,5 @@
+# ssh
+
 SSH stands for secure shell. It allows for a remote connection to a machine over TCP.
 
 `ssh username@host`
@@ -23,16 +25,16 @@ ssh-add ~/.ssh/id_rsa
 
 The output of `ssh-agent -s` is quite straightforward. It is setting (and also creating(?)) env vars that are discoverable by the ssh client when trying to check your keys.
 
-
 ## Adding a hostname to your ssh
 
-On the machine you are connecting *from* you can edit `~/.ssh/config` to include a hostname with your required IP address, thereby allowing you to write `ssh aeg` instead of `ssh root@123.123.123.123`.
+On the machine you are connecting _from_ you can edit `~/.ssh/config` to include a hostname with your required IP address, thereby allowing you to write `ssh aeg` instead of `ssh root@123.123.123.123`.
 
 For example, in you could add something like this in `~/.ssh/config` file, include the following:
+
 ```sh
 Host aeg
   HostName 123.123.123.123
   User root
-``` 
+```
 
 Now you can connect with `ssh aeg` instead of `ssh root@123.123.123.123`.

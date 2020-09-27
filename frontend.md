@@ -2,7 +2,7 @@
 
 Example `manifest.json` file:
 
-```
+```zsh
 {
     "name": "",
     "scope": "/",
