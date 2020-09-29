@@ -11,6 +11,7 @@ Please visit [notes](https://austin-e-gatlin.gitbook.io/notes/) on [Gitbook](htt
 When an article actually helps me understand something in a way I haven't before...
 
 - [CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#token-based-mitigation)
+- [ECS](https://dev.to/yos/entity-component-systems-in-elixir--2cph)
 
 ### Linux One-Liners
 
