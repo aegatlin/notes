@@ -1,4 +1,4 @@
-# ssh
+# Ssh
 
 SSH stands for secure shell. It allows for a remote connection to a machine over TCP.
 

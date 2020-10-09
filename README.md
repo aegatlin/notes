@@ -1,8 +1,6 @@
 # Notes
 
-This is a repository of personal tech notes.
-
-Please visit [notes](https://austin-e-gatlin.gitbook.io/notes/) on [Gitbook](https://www.gitbook.com/) to explore.
+This is a repository of personal tech notes. Visit [notes.gatlin.io](https://notes.gatlin.io) to view via the beautiful [Gitbook](https://www.gitbook.com/) UI.
 
 ## Uncategorized notes
 

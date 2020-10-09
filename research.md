@@ -1,12 +1,14 @@
 # Research
 
+This is similar to the Uncategorized page, but is where I'm collecting my notes about broader fields of technology, as opposed to notes on specific tools or specific systems. Like my uncategorized notes, when sufficiently mature, they will turn into their own page.
+
 ## Graphics
 
 ### Links
 
 - A history of browser graphics | [blog post](https://www.construct.net/en/blogs/ashleys-blog-2/brief-history-graphics-web-1517)
 
-## Dialogue
+## Dialogue Systems
 
 ### Links
 
