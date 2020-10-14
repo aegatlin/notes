@@ -103,6 +103,8 @@
 - What no one told you about z-index | <https://philipwalton.com/articles/what-no-one-told-you-about-z-index/>
 - Favicon Generator | <https://favicon.io/favicon-converter/>
 - Color wheel theory | <https://www.canva.com/colors/color-wheel/>
+- SWR | <https://swr.vercel.app/>
+  - SWR seems like a great syncing app for frontend frameworks, made by vercel.
 
 ### Designing websites
 
