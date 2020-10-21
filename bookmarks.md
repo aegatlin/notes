@@ -139,3 +139,17 @@
 
 - Intro/basics | <https://www.html5rocks.com/en/tutorials/webrtc/basics/>
   - Explains the basic protocols and APIs to get started
+- WebRTC in the real world | <https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/>
+- Blog post on WebRTC without the need for a signaling server | <https://blog.printf.net/articles/2013/05/17/webrtc-without-a-signaling-server/>
+  - A very exciting reinterpretation of WebRTC for peer-to-peer file transfers. Makes me think of what else you could do when peer on the internet could talk to each other more easily...
+
+### Tools & services
+
+- WebRTC.io | <https://github.com/webRTC-io/webRTC.io>
+  - It is an open-source (license in README) abstracted API over WebRTC that simplifies setup.
+- SimpleWebRTC | <https://www.simplewebrtc.com/>
+  - This is a formerly open-sourced simplified API over WebRTC, I believe. It seems they've now closed-sourced it and are attempting to turn it into a product or something. Maybe it's a service API we could leverage with an API key, etc.
+
+### Evolving telephony
+
+- OpenBTS | <https://en.wikipedia.org/wiki/OpenBTS>
