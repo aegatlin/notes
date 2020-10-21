@@ -127,3 +127,15 @@
   - Type Wolf | <https://www.typewolf.com/>
 - Image Libraries
   - Unsplash | <https://unsplash.com/>
+
+## Innovation / Incubation
+
+- SVPG | <https://svpg.com/>
+  - Silicon Valley Product Group. I don't know much about them but I think they have a ideation process
+- Lean Canvas
+  - The original website? | <https://leanstack.com/leancanvas>
+
+## WebRTC
+
+- Intro/basics | <https://www.html5rocks.com/en/tutorials/webrtc/basics/>
+  - Explains the basic protocols and APIs to get started
