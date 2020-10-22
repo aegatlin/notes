@@ -85,6 +85,8 @@
   - Postmake is a list of startup "tech stacks", but more broadly, what they use across all aspects of their startup
 - Rapid API | <https://rapidapi.com/>
   - Rapid API is a middleman integration to facilitate integrating with other APIs (I think)
+- Deno | <https://deno.land/>
+  - Deno is intended to replace nodejs, with native support for typescript and is allegedly more performant
 
 ## Hacker Stuff
 
@@ -146,6 +148,9 @@
 - WebRTC for the curious | <https://webrtcforthecurious.com/>
   - A book introducing WebRTC for non-initiated technical folk.
 - WebRTC Glossary | <https://webrtcglossary.com/>
+- HTML5Rocks article on WebRTC Signaling Infrastructure | <https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/>
+- Google IO conference video introducting WebRTC in 2013 | <https://www.youtube.com/watch?v=p2HzZkd2A40>
+- WebRTC Book | <https://webrtcbook.com/>
 
 ### Tools & services
 
@@ -163,6 +168,14 @@
   - A video conferencing enterprisey API service
 - PeerJS | <https://peerjs.com/>
   - Abstracted API over WebRTC API
+- ShareFest | <https://github.com/peer5/sharefest>
+  - "Web based p2p file sharing built on WebRTC Data Channels API."
+- Real-time Web Technologies Guide | <https://www.leggetter.co.uk/real-time-web-technologies-guide/>
+  - This is essentially a very long list of real-time web tech services and libraries
+- Signalmaster | <https://github.com/simplewebrtc/signalmaster>
+  - "simple socket.io server for webrtc signaling"
+- Asterisk | <https://www.asterisk.org/>
+  - Enterprisey, call-center-viby video conferencing service
 
 ### Evolving telephony
 
