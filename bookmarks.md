@@ -137,11 +137,15 @@
 
 ## WebRTC
 
+- MDN docs on WebRTC | <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API>
 - Intro/basics | <https://www.html5rocks.com/en/tutorials/webrtc/basics/>
   - Explains the basic protocols and APIs to get started
 - WebRTC in the real world | <https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/>
 - Blog post on WebRTC without the need for a signaling server | <https://blog.printf.net/articles/2013/05/17/webrtc-without-a-signaling-server/>
   - A very exciting reinterpretation of WebRTC for peer-to-peer file transfers. Makes me think of what else you could do when peer on the internet could talk to each other more easily...
+- WebRTC for the curious | <https://webrtcforthecurious.com/>
+  - A book introducing WebRTC for non-initiated technical folk.
+- WebRTC Glossary | <https://webrtcglossary.com/>
 
 ### Tools & services
 
@@ -149,7 +153,18 @@
   - It is an open-source (license in README) abstracted API over WebRTC that simplifies setup.
 - SimpleWebRTC | <https://www.simplewebrtc.com/>
   - This is a formerly open-sourced simplified API over WebRTC, I believe. It seems they've now closed-sourced it and are attempting to turn it into a product or something. Maybe it's a service API we could leverage with an API key, etc.
+- Vonage, formerly TokBox | <https://www.vonage.com.au/communications-apis/video/>
+  - A service API you pay for to integrate into your application
+- Twilio | <https://www.twilio.com/>
+  - A service API you pay for to integrate into you application
+- Vidyo | <https://www.vidyo.com/>
+  - A video conferencing enterprisey API service
+- Agora | <https://www.agora.io/en/>
+  - A video conferencing enterprisey API service
+- PeerJS | <https://peerjs.com/>
+  - Abstracted API over WebRTC API
 
 ### Evolving telephony
 
 - OpenBTS | <https://en.wikipedia.org/wiki/OpenBTS>
+- Matrix.org | <https://matrix.org/>
