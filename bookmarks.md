@@ -5,9 +5,13 @@
 - Deep Learning Book | <https://www.deeplearningbook.org/>
 - How to Learn Machine Learning | <https://elitedatascience.com/learn-machine-learning>
 - Gitbook Dashboard | <https://app.gitbook.com/>
+- gatlin.io | <https://gatlin.io>
+
+## Google
+
 - Google Domains | <https://domains.google.com/registrar/>
   - gatlin.io DNS settings | <https://domains.google.com/registrar/gatlin.io/dns>
-- gatlin.io | <https://gatlin.io>
+- Google Analytics | <https://analytics.google.com/analytics/web/>
 
 ## Research Tech
 
@@ -75,7 +79,7 @@
 - SEP Philosophy of Computer Science | <https://plato.stanford.edu/entries/computer-science/>
 - Select\* SQL | <https://selectstarsql.com/>
 
-## Interesting Tech Resources
+### Interesting Tech Resources
 
 - OpenAI's Gym | <http://rosalind.info/problems/locations/>
 - Quantum Javascript | <https://quantumjavascript.app/>
@@ -87,6 +91,11 @@
   - Rapid API is a middleman integration to facilitate integrating with other APIs (I think)
 - Deno | <https://deno.land/>
   - Deno is intended to replace nodejs, with native support for typescript and is allegedly more performant
+
+### Introductory materials
+
+- Containers | <https://www.youtube.com/watch?v=8fi7uSYlOdc>
+- How to Learn Machine Learning | <https://elitedatascience.com/learn-machine-learning>
 
 ## Hacker Stuff
 
@@ -140,6 +149,8 @@
 ## WebRTC
 
 - MDN docs on WebRTC | <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API>
+- LittleChat Blog Post | <https://littlelines.com/blog/2020/07/06/building-a-video-chat-app-in-phoenix-liveview>
+  - A step-by-step guide on how to build a video chat app in Elixir. Very thorough, very good.
 - Intro/basics | <https://www.html5rocks.com/en/tutorials/webrtc/basics/>
   - Explains the basic protocols and APIs to get started
 - WebRTC in the real world | <https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/>
@@ -151,6 +162,14 @@
 - HTML5Rocks article on WebRTC Signaling Infrastructure | <https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/>
 - Google IO conference video introducting WebRTC in 2013 | <https://www.youtube.com/watch?v=p2HzZkd2A40>
 - WebRTC Book | <https://webrtcbook.com/>
+- ORTC | <https://ortc.org/>
+  - Allegedly the future of WebRTC, and has/can/could be dubbed WebRTC 1.1, where WebRTC would be like 1.0
+  - Future API | <https://ortc.org/future/>
+- Caniuse for WebRTC (and ORTC) | <https://caniuse.com/?search=webrtc>
+- testrtc | <https://testrtc.com/>
+  - A service that tests your rtc applications. Not sure how.
+- WebRTC flow blog post | <https://www.pkc.io/blog/untangling-the-webrtc-flow/>
+  - Contains a good flow chart for the generic WebRTC flow
 
 ### Tools & services
 
