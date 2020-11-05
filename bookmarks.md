@@ -2,6 +2,7 @@
 
 - Github Repositories | <https://github.com/aegatlin?tab=repositories>
 - Pocket | <https://app.getpocket.com/>
+- Configurator for Moonlander Keyboard | <https://configure.ergodox-ez.com/my_layouts>
 - Deep Learning Book | <https://www.deeplearningbook.org/>
 - How to Learn Machine Learning | <https://elitedatascience.com/learn-machine-learning>
 - Gitbook Dashboard | <https://app.gitbook.com/>
