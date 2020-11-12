@@ -15,9 +15,10 @@
 
 ## Port Scan
 
-1. `sudo nmap [IP Address]`
-   - [nmap port scanning tutorial](https://nmap.org/book/port-scanning-tutorial.html)
-   - It will, among othe things, scan the 1000 most popular ports and report back whether or not they are open, and which services are available/listening on those ports.
+- `nmap [IP Address]`
+  - [nmap port scanning tutorial](https://nmap.org/book/port-scanning-tutorial.html)
+  - It will, among othe things, scan the 1000 most popular ports and report back whether or not they are open, and which services are available/listening on those ports.
+  - `nmap -p 80[,443,...] example.com` will scan a specific port
 
 ### Common Ports and Services
 
