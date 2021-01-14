@@ -156,6 +156,8 @@
 - MDN docs on WebRTC | <https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API>
 - WebRTC Samples | <https://webrtc.github.io/samples/>
   - Seems to be a pretty authoritative site giving examples for various WebRTC tasks
+- is WebRTC ready yet? | <http://iswebrtcreadyyet.com/>
+  - browser compatibility table for WebRTC functionality
 - LittleChat Blog Post | <https://littlelines.com/blog/2020/07/06/building-a-video-chat-app-in-phoenix-liveview>
   - A step-by-step guide on how to build a video chat app in Elixir. Very thorough, very good.
 - Intro/basics | <https://www.html5rocks.com/en/tutorials/webrtc/basics/>
