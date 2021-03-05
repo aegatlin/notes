@@ -18,6 +18,19 @@ cat << DELIMIT > ~/.bash_aliases
 DELIMIT
 ```
 
+## Removing tabs from HEREDOC text
+
+This **will not work for spaces, only tabs**
+
+```text
+cat <<-EOF
+  hello
+  world
+EOF
+hello
+world
+```
+
 ## Preventing variable expansion in HEREDOCs
 
 HEREDOCs will expand variables by default. To prevent this, wrap the opening delimiter in quotes.
