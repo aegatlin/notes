@@ -2,21 +2,19 @@
 
 The `PS1` env var controls the look of the terminal prompt. In `zsh` the env var is also call `PROMPT`. Prompt variables for `zsh` can be found [here](http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html#Prompt-Expansion).
 
-## Display the current directory
+## Some Easy Prompt Variables
 
-Prompt syntax: `%~`
-
-## Display date and time
-
-Prompt syntax: `%D %T`
-
-## Display a newline
-
-Prompt syntax: `$'\n'`
+* Display the current directory: `%~`
+* Display date and time: `%D %T`
+* Display a newline: `$'\n'`
+* Display username: `%n`
+* Display hostname
+  * `%M` displays the full hostname
+  * `%m` displays the hostname up to the first `.`
 
 ## Display the current git branch
 
-This is not easy. There is a `zsh` function called `vcs_info` that existing in the env. You need to enable its usage by using `autoload -Uz vcs_info`. According to [the docs](http://zsh.sourceforge.net/Doc/Release/Shell-Builtin-Commands.html), the `-U` flag suppresses alias expansion. I guess this is to prevent a scenario where you wrote an alias independently that happened to be the name of a variable used within the vcs_info function itself. It could then alias-expand into something not intended. The `-z` flag indicates that you should autoload the function in a `zsh` friendly way, as opposed to a `ksh` friendly way. I don't know why that wouldn't be assumed, but I'm trusting [this blog post](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/). This is step one, and should be added to `.zshrc`.
+This is not easy. There is a `zsh` function called `vcs_info` that exists in the env. You need to enable its usage by using `autoload -Uz vcs_info`. According to [the docs](http://zsh.sourceforge.net/Doc/Release/Shell-Builtin-Commands.html), the `-U` flag suppresses alias expansion. I guess this is to prevent a scenario where you wrote an alias independently that happened to be the name of a variable used within the vcs_info function itself. It could then alias-expand into something not intended. The `-z` flag indicates that you should autoload the function in a `zsh` friendly way, as opposed to a `ksh` friendly way. I don't know why that wouldn't be assumed, but I'm trusting [this blog post](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/). This is step one, and should be added to `.zshrc`.
 
 ```text
 autoload -Uz vcs_info
