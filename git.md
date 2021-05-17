@@ -8,8 +8,8 @@
   - Create new branch.
 - `git push [origin] --delete [branch_name]`
   - Delete the remote version of a branch. \(Though I often feel safer doing it via the repo GUI.\)
-- `git remote update [origin] --prune`
-  - Prune stale branches from your remote cache\`\`\`
+- `git remote update [origin] --prune` || `git remote prune origin`
+  - Prune stale branches from your remote cache
 - `git clean -fd`
   - Removes untracked files and directories from the working tree. I.e., it deletes the red stuff.
   - `-f` is to force the clean. I think that, since it's destructive, they make you type it.
