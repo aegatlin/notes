@@ -17,6 +17,8 @@
 - `git rm --cached -r .`
   - `--cached` will `rm` only cached files, i.e., remove paths only from the index \(i.e., cache\) without messing with the working tree \(i.e., your in progress work, aka the red stuff\).
   - `-r` will `rm` recursively. E.g., `... -r .` will `rm` the current directory and files and all sub-directories and files.
+  - `git branch -m [branch_name]`
+    - Rename a local branch.
 
 ## Syntax
 
