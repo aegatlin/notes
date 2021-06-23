@@ -25,8 +25,10 @@ Example `manifest.json` file:
 
 When an article actually helps me understand something in a way I haven't before...
 
-- [CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#token-based-mitigation)
-- [ECS](https://dev.to/yos/entity-component-systems-in-elixir--2cph)
+- [CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#token-based-mitigation): 
+ Cross-Site Request Forgery
+- [ECS](https://dev.to/yos/entity-component-systems-in-elixir--2cph): Entity 
+ Component System
 
 ## Linux One-Liners
 
@@ -43,3 +45,4 @@ When an article actually helps me understand something in a way I haven't before
   ```text
   convert filename.jpg -quality 50% filename.jpg
   ```
+
