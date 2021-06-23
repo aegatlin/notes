@@ -1,9 +1,10 @@
 # Public Key (Asymmetric) Cryptography
 
-Using a cryptographic algorithm (commonly 
-[RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) two special numbers can 
+Using a cryptographic algorithm (commonly [RSA][RSA]) two special numbers can 
 be generated. A private key and a public key. The public key can be shared with 
 everyone, including bad actors. The private key is _never_ shared.
+
+[RSA]: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
 ### Encryption
 
